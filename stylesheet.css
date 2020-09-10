@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.flex-list {
+  display: flex;
+  background-color: #f7f7f7;
+  padding : 0 25px;
+  float: left;
+  width: auto;
+  width: 100%;
+  text-align: center;
+  flex: auto;
+
+}
+
+.icon-baju {
+  width: 25%;
+  padding-top: 50px;
+}
+
+.icon-baju p {
+  font-size: 20px;
+  color: Black;
+  font-weight: bold;
+}
+
+.ukuran-baju {
+  width: 75%;
+}
+
+.keterangan-produk {
+  padding-top: 25px;
+  width: 25%;
+
+}
+
+.btn {
+  padding: 12px 24px;
+  display: inline-block;
+  color: White;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.buy {
+  background-color: #5dca88;
+  cursor: pointer;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.buy:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
